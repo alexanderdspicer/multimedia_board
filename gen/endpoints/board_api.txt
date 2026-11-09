@@ -1,0 +1,59 @@
+GET /_board/tag-categories
+POST /_board/tag-categories
+PUT /_board/tag-category/{name}
+GET /_board/tag-category/{name}
+DELETE /_board/tag-category/{name}
+PUT /_board/tag-category/{name}/default
+GET /_board/tags/?offset={initial-pos}&limit={page-size}&query={query}
+POST /_board/tags
+PUT /_board/tag/{name}
+GET /_board/tag/{name}
+DELETE /_board/tag/{name}
+POST /_board/tag-merge/
+GET /_board/tag-siblings/{name}
+GET /_board/posts/?offset={initial-pos}&limit={page-size}&query={query}
+POST /_board/posts/
+PUT /_board/post/{id}
+GET /_board/post/{id}
+GET /_board/post/{id}/around
+DELETE /_board/post/{id}
+POST /_board/post-merge/
+PUT /_board/post/{id}/score
+POST /_board/post/{id}/favorite
+DELETE /_board/post/{id}/favorite
+GET /_board/featured-post
+POST /_board/featured-post
+POST /_board/posts/reverse-search
+GET /_board/pool-categories
+PUT /_board/pool-category/{name}
+GET /_board/pool-category/{name}
+DELETE /_board/pool-category/{name}
+PUT /_board/pool-category/{name}/default
+GET /_board/pools/?offset={initial-pos}&limit={page-size}&query={query}
+POST /_board/pool
+PUT /_board/pool/{id}
+GET /_board/pool/{id}
+DELETE /_board/pool/{name}
+POST /_board/pool-merge/
+GET /_board/comments/?offset={initial-pos}&limit={page-size}&query={query}
+POST /_board/comments/
+PUT /_board/comment/{id}
+GET /_board/comment/{id}
+DELETE /_board/comment/{id}
+PUT /_board/comment/{id}/score
+GET /_board/users/?offset={initial-pos}&limit={page-size}&query={query}
+
+POST /_board/users (deprecated)
+PUT /_board/user/{name} (deprecated)
+GET /_board/user/{name} (deprecated)
+DELETE /_board/user/{name} (deprecated)
+GET /_board/user-tokens/{user_name} (deprecated)
+POST /_board/user-token/{user_name} (deprecated)
+PUT /_board/user-token/{user_name}/{token} (deprecated)
+DELETE /_board/user-token/{user_name}/{token} (deprecated)
+GET /_board/password-reset/{email-or-name} (deprecated)
+POST /_board/password-reset/{email-or-name} (deprecated)
+
+GET /_board/snapshots/?offset={initial-pos}&limit={page-size}&query={query}
+GET /_board/info
+POST /_board/uploads

@@ -1,0 +1,11 @@
+PUT /_matrix/app/v1/transactions/{txnId}
+POST /_matrix/app/v1/ping
+GET /_matrix/app/v1/users/{userId}
+GET /_matrix/app/v1/rooms/{roomAlias}
+GET /_matrix/app/v1/thirdparty/location
+GET /_matrix/app/v1/thirdparty/location/{protocol}
+GET /_matrix/app/v1/thirdparty/protocol/{protocol}
+GET /_matrix/app/v1/thirdparty/user
+GET /_matrix/app/v1/thirdparty/user/{protocol}
+POST /_matrix/client/v1/appservice/{appserviceId}/ping
+PUT /_matrix/client/v3/directory/list/appservice/{networkId}/{roomId} 
